@@ -11,7 +11,7 @@ SMS_FROM="FogosAlert"           # opcional remetente, caso este ID esteja config
 
 é só dar permissões de execução ao script ex. chmod 755 script.sh e colocar no cron, de 3 em 3 minutos (ex.)
 
-*/3 * * * * /home/ec2-user/script_fogos.sh
+*/3 * * * * /home/ec2-user/script_deteta_fogos.sh
 
 
 Nota: para evitar mandar SMS em excesso  (com incidntes repetidos), é criado um ficheiro temporario /tmp/fogos_alerts.log que gere o histórico. Este controlo é apenas diário.
