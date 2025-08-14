@@ -4,10 +4,15 @@ Script BASH que verifica se existem incêndios registados no fogos.pt (https://a
 Parametros a configurar:
 
 LOCATIONS=("Freguesia1" "Freguesia2" "Freguesia3" "Freguesia4" "etc")
+
 SMS_API_USER="username_serviço_BULKSMS"         # substitui com o teu user
+
 SMS_API_PASS="password_serviço_BULKSMS"         # substitui com a tua pass
+
 SMS_TO="+351DESTINATARIO_SMS"          # número destino do SMS (com código internacional)
+
 SMS_FROM="FogosAlert"           # opcional remetente, caso este ID esteja configurado no BULKSMS
+
 
 é só dar permissões de execução ao script ex. chmod 755 script_deteta_fogos.sh e colocar no cron, de 3 em 3 minutos (ex.)
 
