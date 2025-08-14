@@ -1,5 +1,5 @@
 # check_fogos_freguesias
-Script BASH que verifica se existem incêndios registados no fogos.pt (https://api.fogos.pt/v2/incidents/active?geojson=true) nas freguesias identificadas no parametro LOCATIONS  e envia SMS através do serviço [https://www.bulksms.com/a](https://api.bulksms.com/v1/messages) para o numero de telefone configurado no parametro SMS_TO
+Script BASH que verifica se existem incêndios registados no fogos.pt (https://api.fogos.pt/v2/incidents/active?geojson=true) nas freguesias identificadas no parametro LOCATIONS  e envia SMS através do serviço [https://www.bulksms.com/](https://api.bulksms.com/v1/messages) para o numero de telefone configurado no parametro SMS_TO
 
 Parametros a configurar:
 
